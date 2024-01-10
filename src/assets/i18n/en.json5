@@ -1890,7 +1890,7 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in DSpace",
+  "home.top-level-communities.head": "Communities in ResearchWorks",
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
@@ -2890,7 +2890,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "All of DSpace",
+  "menu.section.browse_global": "Browse ResearchWorks",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -3582,7 +3582,7 @@
 
   "repository.title": "DSpace Repository",
 
-  "repository.title.prefix": "DSpace Repository :: ",
+  "repository.title.prefix": "DSpace :: ",
 
   "resource-policies.add.button": "Add",
 
@@ -4856,7 +4856,7 @@
 
   "thumbnail.person.placeholder": "No Profile Picture Available",
 
-  "title": "DSpace",
+  title: "DSpace",
 
   "vocabulary-treeview.header": "Hierarchical tree view",
 
@@ -5248,7 +5248,7 @@
 
   "person.orcid.registry.auth": "ORCID Authorizations",
 
-  "home.recent-submissions.head": "Recent Submissions",
+  "home.recent-submissions.head": "Recently Added",
 
   "listable-notification-object.default-message": "This object couldn't be retrieved",
 
