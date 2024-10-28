@@ -3112,7 +3112,7 @@
 
   "nav.expandable-navbar-section-suffix": "(submenu)",
 
-  "nav.browse.header": "All of DSpace",
+  "nav.browse.header": "All of ResearchWorks",
 
   "nav.community-browse.header": "By Community",
 
@@ -5367,7 +5367,8 @@
   "process.overview.unknown.user": "Unknown",
 
   "browse.search-form.placeholder": "Search the repository",
-}
+
+  "footer.link.uwscholarlypublishing": "UW Scholarly Publishing Services",
 
   "item.page.doi": "DOI",
 }
