@@ -20,6 +20,7 @@ import { SidebarService } from '../sidebar/sidebar.service';
 import { SearchFilterService } from '../../core/shared/search/search-filter.service';
 import { SearchConfigurationService } from '../../core/shared/search/search-configuration.service';
 import { SEARCH_CONFIG_SERVICE } from '../../my-dspace-page/my-dspace-page.component';
+import { XSRFService } from '../../core/xsrf/xsrf.service';
 import { RouteService } from '../../core/services/route.service';
 import { createSuccessfulRemoteDataObject, createSuccessfulRemoteDataObject$ } from '../remote-data.utils';
 import { PaginatedSearchOptions } from './models/paginated-search-options.model';
@@ -33,6 +34,8 @@ import { SearchFilterConfig } from './models/search-filter-config.model';
 import { FilterType } from './models/filter-type.model';
 import { getCommunityPageRoute } from '../../community-page/community-page-routing-paths';
 import { getCollectionPageRoute } from '../../collection-page/collection-page-routing-paths';
+import { environment } from '../../../environments/environment.test';
+import { APP_CONFIG } from '../../../config/app-config.interface';
 
 let comp: SearchComponent;
 let fixture: ComponentFixture<SearchComponent>;
@@ -104,6 +107,7 @@ const searchServiceStub = jasmine.createSpyObj('SearchService', {
   trackSearch: {},
 }) as SearchService;
 const queryParam = 'test query';
+const hiddenQuery = 'hidden query';
 const scopeParam = '7669c72a-3f2a-451f-a3b9-9210e7a4c02f';
 
 const defaultSearchOptions = new PaginatedSearchOptions({ pagination });
@@ -206,10 +210,12 @@ export function configureSearchComponentTestingModule(compType, additionalDeclar
         provide: SearchFilterService,
         useValue: {}
       },
+      { provide: XSRFService, useValue: {} },
       {
         provide: SEARCH_CONFIG_SERVICE,
         useValue: searchConfigurationServiceStub
-      }
+      },
+      { provide: APP_CONFIG, useValue: environment },
     ],
     schemas: [NO_ERRORS_SCHEMA]
   }).overrideComponent(compType, {
@@ -234,6 +240,7 @@ describe('SearchComponent', () => {
     comp = fixture.componentInstance; // SearchComponent test instance
     comp.inPlaceSearch = false;
     comp.paginationId = paginationId;
+    comp.hiddenQuery = hiddenQuery;
 
     spyOn((comp as any), 'getSearchOptions').and.returnValue(paginatedSearchOptions$.asObservable());
   });

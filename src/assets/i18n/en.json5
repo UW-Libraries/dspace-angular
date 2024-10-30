@@ -898,6 +898,8 @@
 
   "claimed-declined-task-search-result-list-element.title": "Declined, sent back to Review Manager's workflow",
 
+  "collection.create.breadcrumbs": "Create collection",
+
   "collection.browse.logo": "Browse for a collection logo",
 
   "collection.create.head": "Create a Collection",
@@ -1186,6 +1188,8 @@
 
   "community.browse.logo": "Browse for a community logo",
 
+  "community.create.breadcrumbs": "Create Community",
+
   "community.create.head": "Create a Community",
 
   "community.create.notifications.success": "Successfully created the Community",
@@ -1463,6 +1467,10 @@
   "deny-request-copy.intro": "This message will be sent to the applicant of the request",
 
   "deny-request-copy.success": "Successfully denied item request",
+
+  "dropdown.clear": "Clear selection",
+
+  "dropdown.clear.tooltip": "Clear the selected option",
 
   "dso.name.untitled": "Untitled",
 
@@ -2494,7 +2502,7 @@
 
   "item.page.version.create": "Create new version",
 
-  "item.page.version.hasDraft": "A new version cannot be created because there is an inprogress submission in the version history",
+  "item.page.version.hasDraft": "A new version cannot be created because there is an in-progress submission in the version history",
 
   "item.page.claim.button": "Claim",
 
@@ -2606,7 +2614,7 @@
 
   "item.version.history.table.action.deleteVersion": "Delete version",
 
-  "item.version.history.table.action.hasDraft": "A new version cannot be created because there is an inprogress submission in the version history",
+  "item.version.history.table.action.hasDraft": "A new version cannot be created because there is an in-progress submission in the version history",
 
   "item.version.notice": "This is not the latest version of this item. The latest version can be found <a href='{{destination}}'>here</a>.",
 
@@ -2636,7 +2644,7 @@
 
   "item.version.create.notification.failure": "New version has not been created",
 
-  "item.version.create.notification.inProgress": "A new version cannot be created because there is an inprogress submission in the version history",
+  "item.version.create.notification.inProgress": "A new version cannot be created because there is an in-progress submission in the version history",
 
   "item.version.delete.modal.header": "Delete version",
 
@@ -2853,6 +2861,8 @@
   "logout.form.submit": "Log out",
 
   "logout.title": "Logout",
+
+  "menu.header.nav.description": "Admin navigation bar",
 
   "menu.header.admin": "Management",
 
@@ -3100,6 +3110,8 @@
 
   "mydspace.view-btn": "View",
 
+  "nav.expandable-navbar-section-suffix": "(submenu)",
+
   "nav.browse.header": "All of ResearchWorks",
 
   "nav.community-browse.header": "By Community",
@@ -3153,6 +3165,8 @@
   "orgunit.page.id": "ID",
 
   "orgunit.page.titleprefix": "Organizational Unit: ",
+
+  "orgunit.search.results.head": "Organizational Unit Search Results",
 
   "pagination.options.description": "Pagination options",
 
@@ -3648,6 +3662,8 @@
 
   "resource-policies.form.name.label": "Name",
 
+  "resource-policies.form.name.hint": "Max 30 characters",
+
   "resource-policies.form.policy-type.label": "Select the policy type",
 
   "resource-policies.form.policy-type.required": "You must select the resource policy type.",
@@ -4090,7 +4106,7 @@
 
   "submission.import-external.source.cinii": "CiNii",
 
-  "submission.import-external.source.crossref": "CrossRef",
+  "submission.import-external.source.crossref": "Crossref",
 
   "submission.import-external.source.datacite": "DataCite",
 
@@ -5347,6 +5363,10 @@
   "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
 
   "vocabulary-treeview.search.form.add": "Add",
+
+  "process.overview.unknown.user": "Unknown",
+
+  "browse.search-form.placeholder": "Search the repository",
 
   "footer.link.uwscholarlypublishing": "UW Scholarly Publishing Services",
 
