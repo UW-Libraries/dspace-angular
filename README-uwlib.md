@@ -3,7 +3,8 @@
 
 ## Changed and files and directories
  - angular.json
- - config/config.dev.yml
+ - config/config.dev.yml 
+ - src/assets/i18n/en.json5 (this file is updated after running `yarn merge-i18n -s src/themes/uwlib/assets/i18n`)
  - src/themes/eager-themes.module.ts
  - src/themes/uwlib
  - README-uwlib.md
