@@ -11,7 +11,8 @@
 }
 
 a {
-  color: #607890;
+  //color: #607890;
+  color: #4b2e83;
   text-decoration: none;
   background-color: transparent;
 }
@@ -22,10 +23,13 @@ a {
   //--ds-header-icon-color: #{$link-color};
   //--ds-header-icon-color-hover: #{darken($link-color, 15%)};
   --ds-header-bg: #4B2E83;
-  --ds-navbar-bg: #AAB8C6;
+  //--ds-navbar-bg: #AAB8C6;
+  --ds-navbar-bg: #ECE9E2;
+  --ds-navbar-link-color: #4B2E83;
   --ds-header-icon-color: WHITE;
   --ds-header-icon-color-hover: WHITE;
-  --ds-home-news-link-color: #607890;
+  //--ds-home-news-link-color: #607890;
+  --ds-home-news-link-color: #4B2E83;
   --ds-footer-bg: #4B2E83;
  }
 
