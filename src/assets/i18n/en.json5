@@ -5282,7 +5282,7 @@
 
   "person.orcid-tooltip.not-authenticated": "{{orcid}} (unconfirmed)",
 
-  "home.recent-submissions.head": "Recent Submissions",
+  "home.recent-submissions.head": "Recently Added",
 
   "listable-notification-object.default-message": "This object couldn't be retrieved",
 
@@ -5419,9 +5419,8 @@
   "live-region.ordering.dropped": "{{ itemName }}, dropped at position {{ index }} of {{ length }}.",
 
   "dynamic-form-array.sortable-list.label": "Sortable list",
-  
+
   "footer.link.uwscholarlypublishing": "UW Scholarly Publishing Services",
 
   "item.page.doi": "DOI",
 }
-
