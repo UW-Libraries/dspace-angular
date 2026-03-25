@@ -1909,7 +1909,7 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in ResearchWorks",
+  "home.top-level-communities.head": "Communities in DSpace",
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
@@ -1981,7 +1981,7 @@
 
   "info.feedback.title": "Feedback",
 
-  "info.feedback.info": "Thanks for sharing your feedback about the ResearchWorks system. Your comments are appreciated!",
+  "info.feedback.info": "Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!",
 
   "info.feedback.email_help": "This address will be used to follow up on your feedback.",
 
@@ -2923,7 +2923,7 @@
 
   "login.form.forgot-password": "Have you forgotten your password?",
 
-  "login.form.header": "Please log in to ResearchWorks",
+  "login.form.header": "Please log in to DSpace",
 
   "login.form.new-user": "New user? Click here to register.",
 
@@ -2941,7 +2941,7 @@
 
   "login.breadcrumbs": "Login",
 
-  "logout.form.header": "Log out from ResearchWorks",
+  "logout.form.header": "Log out from DSpace",
 
   "logout.form.submit": "Log out",
 
@@ -2975,7 +2975,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "Browse ResearchWorks",
+  "menu.section.browse_global": "All of DSpace",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -3111,7 +3111,7 @@
 
   "metadata-export-search.submit.error": "Starting the export has failed",
 
-  "mydspace.breadcrumbs": "MyResearchWorks",
+  "mydspace.breadcrumbs": "MyDSpace",
 
   "mydspace.description": "",
 
@@ -3165,7 +3165,7 @@
 
   "mydspace.results.no-uri": "No URI",
 
-  "mydspace.search-form.placeholder": "Search in ResearchWorks...",
+  "mydspace.search-form.placeholder": "Search in MyDSpace...",
 
   "mydspace.show.workflow": "Workflow tasks",
 
@@ -3185,7 +3185,7 @@
 
   "mydspace.status.mydspaceWorkspace": "Workspace",
 
-  "mydspace.title": "MyResearchWorks",
+  "mydspace.title": "MyDSpace",
 
   "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
 
@@ -3199,7 +3199,7 @@
 
   "nav.expandable-navbar-section-suffix": "(submenu)",
 
-  "nav.browse.header": "All of ResearchWorks",
+  "nav.browse.header": "All of DSpace",
 
   "nav.community-browse.header": "By Community",
 
@@ -3215,7 +3215,7 @@
 
   "nav.main.description": "Main navigation bar",
 
-  "nav.mydspace": "MyResearchWorks",
+  "nav.mydspace": "MyDSpace",
 
   "nav.profile": "Profile",
 
@@ -3593,7 +3593,7 @@
 
   "register-page.registration.header": "New user registration",
 
-  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to ResearchWorks.",
+  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
 
   "register-page.registration.email": "Email Address *",
 
@@ -3675,9 +3675,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title": "ResearchWorks Repository",
+  "repository.title": "DSpace Repository",
 
-  "repository.title.prefix": "ResearchWorks :: ",
+  "repository.title.prefix": "DSpace Repository :: ",
 
   "resource-policies.add.button": "Add",
 
@@ -3813,7 +3813,7 @@
 
   "search.breadcrumbs": "Search",
 
-  "search.search-form.placeholder": "Search ResearchWorks",
+  "search.search-form.placeholder": "Search the repository ...",
 
   "search.filters.remove": "Remove filter of type {{ type }} with value {{ value }}",
 
@@ -4037,7 +4037,7 @@
 
   "search.form.search_dspace": "All repository",
 
-  "search.form.scope.all": "All of ResearchWorks",
+  "search.form.scope.all": "All of DSpace",
 
   "search.results.head": "Search Results",
 
@@ -4125,11 +4125,11 @@
 
   "statistics.table.no-data": "No data available",
 
-  "statistics.table.title.TotalVisits": "Total visits since July 22nd, 2024",
+  "statistics.table.title.TotalVisits": "Total visits",
 
   "statistics.table.title.TotalVisitsPerMonth": "Total visits per month",
 
-  "statistics.table.title.TotalDownloads": "File Visits since July 22nd, 2024",
+  "statistics.table.title.TotalDownloads": "File Visits",
 
   "statistics.table.title.TopCountries": "Top country views",
 
@@ -4963,7 +4963,7 @@
 
   "thumbnail.person.placeholder": "No Profile Picture Available",
 
-  title: "ResearchWorks",
+  "title": "DSpace",
 
   "vocabulary-treeview.header": "Hierarchical tree view",
 
@@ -5359,7 +5359,7 @@
 
   "person.orcid-tooltip.not-authenticated": "{{orcid}} (unconfirmed)",
 
-  "home.recent-submissions.head": "Recently Added",
+  "home.recent-submissions.head": "Recent Submissions",
 
   "listable-notification-object.default-message": "This object couldn't be retrieved",
 
@@ -5497,9 +5497,5 @@
 
   "dynamic-form-array.sortable-list.label": "Sortable list",
 
-  "footer.link.uwscholarlypublishing": "UW Scholarly Publishing Services",
-
-  "item.page.doi": "DOI",
-}
   "metadata-export-search.submit.error.limit-exceeded": "Only the first {{limit}} items will be exported",
 }
