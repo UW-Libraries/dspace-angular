@@ -1,0 +1,32 @@
+/* adding padding to elements in the top navbar */
+.ds-menu-item {
+    padding-right: 1rem !important;
+}
+
+/* adding padding to statistics link in the top navbar */
+div#navbar-section-public_2_0 {
+    padding-left: 1rem !important;
+}
+
+/* padding after "permanent URI for this community" text in collections pages */
+ds-comcol-page-handle>ds-base-comcol-page-handle>p>span.mb-0.ng-star-inserted {
+    padding-right: 0.5em !important;
+}
+
+ds-comcol-page-handle>ds-base-comcol-page-handle>p>span::after {
+    content: ":" !important;
+}
+
+/* set background color for the top of the home page */
+
+ds-home-news.ng-star-inserted {
+    background-color: #e9ecef;
+}
+
+/* setting padding for the jumbotron on the home page */
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 4rem 2rem;
+    }
+}
