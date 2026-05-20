@@ -30,3 +30,33 @@ ds-home-news.ng-star-inserted {
         padding: 4rem 2rem;
     }
 }
+
+/* add padding above the repository search box on the home page */
+#main-content>div>ds-home-page>ds-base-home-page>div {
+    margin-top: 2rem;
+}
+
+/* add padding above search bar on search results page */
+.row-with-sidebar.row-offcanvas.row-offcanvas-left.px-0.ng-tns-c633431231-7.ng-trigger.ng-trigger-pushInOut {
+    padding-top: 1rem;
+}
+
+/* Styling for LibAlert banner */
+div#libAlerts {
+    background: url("https://orbiscascade-washington.primo.exlibrisgroup.com/nde/custom/01ALLIANCE_UW-UW_NDE/assets/images/alert_logo_red.jpg") no-repeat 0 -38px;
+    min-height: 70px;
+    background-color: #C61029 !important;
+    color: #fff;
+    line-height: 1.25;
+    font-size: 1.125rem;
+    // padding: 0.75rem;
+    display: flex;
+}
+
+p.alert.alert-error.hitlink {
+    color: white;
+    padding: 20px 100px 0 300px;
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 600;
+}

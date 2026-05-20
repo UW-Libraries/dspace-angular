@@ -1,5 +1,5 @@
 rest:
   ssl: true
-  host: sandbox.dspace.org
+  host: rworks-staging.lib.washington.edu
   port: 443
   nameSpace: /server
