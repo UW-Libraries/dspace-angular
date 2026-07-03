@@ -1,6 +1,7 @@
 /* After editing this file, you must run the following yarn command to incorporate any changes into the default settings:
 
-    yarn merge-i18n -s src/themes/uwlib/assets/i18n */
+    yarn merge-i18n -s src/themes/uwlib/assets/i18n, or
+    npm run merge-i18n -- -s src/themes/uwlib/assets/i18n */
 
 {
   // DSpace default: "All of DSpace"

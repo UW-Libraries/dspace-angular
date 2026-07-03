@@ -8,6 +8,11 @@ div#navbar-section-public_2_0 {
     padding-left: 1rem !important;
 }
 
+/* reduce padding in navbar between  'all of researchworks' and its associated dropdown menu icon */
+#expandable-navbar-section-public_1_0>a>span>ds-text-menu-item>span {
+    padding-right: 0.25rem !important;
+}
+
 /* padding after "permanent URI for this community" text in collections pages */
 ds-comcol-page-handle>ds-base-comcol-page-handle>p>span.mb-0.ng-star-inserted {
     padding-right: 0.5em !important;
@@ -29,4 +34,50 @@ ds-home-news.ng-star-inserted {
     .jumbotron {
         padding: 4rem 2rem;
     }
+}
+
+/* add padding above the repository search box on the home page */
+#main-content>div>ds-home-page>ds-base-home-page>div {
+    margin-top: 2rem;
+}
+
+/* add padding above search bar on search results page */
+.row-with-sidebar.row-offcanvas.row-offcanvas-left.px-0.ng-tns-c633431231-7.ng-trigger.ng-trigger-pushInOut {
+    padding-top: 1rem;
+}
+
+/* Styling for LibAlert banner */
+div#libAlerts {
+    // min-height: 70px;
+    background-color: #C61029 !important;
+    color: #fff;
+    // line-height: 1.25;
+    // font-size: 1.125rem;
+    // padding: 0.75rem;
+    // display: flex;
+}
+
+div#libAlerts div#msg {
+    background: url(//www.washington.edu/static/alert_logo_red.jpg) no-repeat 0 -38px;
+    margin: 0 auto;
+    padding: 5px 0 15px;
+}
+
+@media (min-width: 768px) {
+    div#libAlerts div#msg {
+        width: 1100px;
+    }
+}
+
+p.alert.alert-error.hitlink {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 100px 0 200px;
+}
+
+/* fix spacing for "view more" button on home page */
+#main-content>div>ds-home-page>ds-base-home-page>div>ds-recent-item-list>div>button {
+    float: none !important;
+    margin-bottom: 1.5rem !important;
 }
